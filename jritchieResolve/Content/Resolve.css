@@ -1,0 +1,40 @@
+﻿.navbar-brand {
+    /*color: #188ae2 !important;*/
+    color: #46a4ec !important;
+    /*font-size: 32px;
+    margin-top: 8px;*/
+    font-family: "Courgette";
+    float: left;
+}
+
+    .navbar-brand span span {
+        color: #ff6600 !important;
+    }
+
+body {
+    background-color: #fffcfa;
+    padding-top: 80px;
+    /*padding-bottom: 20px;*/
+}
+
+.navbar {
+    /*background: linear-gradient(to right, #051c2e 20%, #50648d 100%);*/
+    /*background: linear-gradient(to right, #051c2e 20%, #46a4ec 100%);*/
+    background: linear-gradient(to right, #051c2e 20%, #8A512E 100%);
+}
+
+.mainnav {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+}
+
+.mask {
+    background: #fffcfa;
+}
