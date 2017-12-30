@@ -1,15 +1,10 @@
-﻿.navbar-brand {
-    /*color: #188ae2 !important;*/
-    color: #46a4ec !important;
-    /*font-size: 32px;
-    margin-top: 8px;*/
-    font-family: "Courgette";
-    float: left;
+﻿:root {
+    --navbarBlue: #051c2e;
+    --navbarBrown: #8a512e;
+    --bodyBackground: #fffcfa;
+    --logoBlue: #46a4ec;
+    --logoOrange: #ff6600;
 }
-
-    .navbar-brand span span {
-        color: #ff6600 !important;
-    }
 
 body {
     background-color: #fffcfa;
@@ -20,7 +15,7 @@ body {
 .navbar {
     /*background: linear-gradient(to right, #051c2e 20%, #50648d 100%);*/
     /*background: linear-gradient(to right, #051c2e 20%, #46a4ec 100%);*/
-    background: linear-gradient(to right, #051c2e 20%, #8A512E 100%);
+    background: linear-gradient(to right, #051c2e 20%, #8a512e 100%);
 }
 
 .mainnav {
@@ -38,3 +33,28 @@ body {
 .mask {
     background: #fffcfa;
 }
+
+.navbar-brand {
+    /*color: #188ae2 !important;*/
+    color: #46a4ec !important;
+    /*font-size: 32px;
+    margin-top: 8px;*/
+    font-family: "Courgette";
+    float: left;
+}
+
+    .navbar-brand span span {
+        color: #ff6600 !important;
+    }
+
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.menu-right{
+    left: auto;
+    right: 0;
+}
+

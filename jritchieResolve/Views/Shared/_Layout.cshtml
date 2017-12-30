@@ -99,16 +99,16 @@
                     </div>
                 </li>
 
-                <li class="nav-item dropdown">
+                @*<li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuForm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Login form
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuForm">
 
-                        <form class="dropdown-item px-5" style="color:#212529; background-color:transparent">
+                        <form class="dropdown-item px-3" style="color:#212529; background-color:transparent; width:250px">
                             <div class="form-group">
                                 <label for="exampleDropdownFormEmail2">Email address</label>
-                                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com" style="width:auto">
+                                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
                             </div>
                             <div class="form-group">
                                 <label for="exampleDropdownFormPassword2">Password</label>
@@ -120,11 +120,11 @@
                                     Remember me
                                 </label>
                             </div>
-                            <button type="submit" class="btn btn-primary">Sign in</button>
+                            <button type="submit" class="btn btn-primary" style="width:100%">Sign in</button>
                         </form>
 
                     </div>
-                </li>
+                </li>*@
 
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#">Disabled</a>
@@ -135,6 +135,41 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
+
+            <ul class="navbar-nav mt-2 mt-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuForm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Login form
+                    </a>
+                    <div class="dropdown-menu menu-right" aria-labelledby="navbarDropdownMenuForm">
+
+                        <form class="dropdown-item px-3" style="color:#212529; background-color:transparent; width:250px">
+                            <div class="form-group">
+                                <label for="exampleDropdownFormEmail2">Email address</label>
+                                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleDropdownFormPassword2">Password</label>
+                                <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                                <label class="form-check-label" for="dropdownCheck2">
+                                    Remember me
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width:100%">Sign in</button>
+                        </form>
+
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+
+            </ul>
+
         </div>
     </nav>
 
